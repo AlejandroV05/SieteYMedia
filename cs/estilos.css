@@ -1,3 +1,37 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
     background-image: url('../img/58471.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+}
+
+section {
+    margin-top:auto;
+    text-align: center;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+p {
+    color: black;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: darkblue;
+}
+button:hover{
+    background-color: aqua;
+    color: azure;
 }
