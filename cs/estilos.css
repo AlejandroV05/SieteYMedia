@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -34,4 +33,9 @@ button {
 button:hover{
     background-color: aqua;
     color: azure;
+}
+
+#veredicto{
+    text-transform: capitalize;
+    font-weight: bolder;
 }

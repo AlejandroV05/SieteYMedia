@@ -23,9 +23,9 @@ function puedoSeguir(){
         //En caso de que esto no sea así
         //Eso significa que has ganado
         if(resultadito==7.5){
-            document.getElementById("pedidito").disabled=true;
-            document.getElementById("plantarcito").disabled=true;
-            document.getElementById("veredicto").innerHTML+=" Has ganado!";
+            //Iniciamos el turno de la máquina
+            //Iniciaremos la función 'plantarse'
+            plantarse();
         }
     }
 }
@@ -78,7 +78,7 @@ function pedir(){
     arraValor.splice(ale,1);
    // console.log("img/"+arrayImg[ale]);
    // console.log(arraValor[ale]);
-    document.getElementById("demo").innerHTML="<img src='"+ruta+"' width='200px'>"; //Mostramos la carta
+    document.getElementById("demo").innerHTML+="<img src='"+ruta+"' width='200px'>"; //Mostramos la carta
     document.getElementById("result").innerHTML="Usted lleva: "+resultadito;    //Mostramos el resultado
 
     puedoSeguir();  //Comprobamos si podemos seguir
