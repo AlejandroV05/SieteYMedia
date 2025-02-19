@@ -1,13 +1,11 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
 body {
     background-image: url('../img/58471.jpg');
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 500px;
     margin: 0;
 }
